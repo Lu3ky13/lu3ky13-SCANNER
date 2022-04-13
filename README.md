@@ -17,3 +17,8 @@ These DEMO tools are just for education and testing and learning I will update a
 please tell me for the last update what we need to add in this tools? 
 
 on Youtube https://youtu.be/FgkwKou9QqE
+
+
+I just developed and improved the tool to be better 
+all code's not mine 
+if you find your code contect me to tag you here 
