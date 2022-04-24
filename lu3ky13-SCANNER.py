@@ -61,6 +61,12 @@ def Send_req(url,payload):
         input(f"\n{red}You Wanna Cancel Brute Force ? Press Any Key To Cancel:{end}")
         print(f"{yellow}Thanks For Using Tool, Have Nice Day :)")
         sys.exit(0)
+    except Exception:
+        pass
+    
+    
+
+
         
 def main():
     print(f"""
