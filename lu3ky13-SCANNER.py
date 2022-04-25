@@ -8,6 +8,7 @@ from time import sleep
 from threading import Timer
 import time
 import getpass
+import random
 
 red = "\033[91m"
 green = "\33[42m"
@@ -18,7 +19,7 @@ end = "\33[0m"
 def domain(domain):
     #x=input(Fore.GREEN +'Enter your url:-')
     r = requests.get(f'http://web.archive.org/cdx/search/cdx?url=*.{domain}&output=text&fl=original&collapse=urlkey')
-    with open('url.txt', 'a') as f:
+    with open('url.txt', 'w+') as f:
         f.write('\n')
         f.writelines(str(r.text))
         f.write('\n')
@@ -26,7 +27,7 @@ def domain(domain):
 
 def subdomain(subdomain):
     r = requests.get(f'http://web.archive.org/cdx/search/cdx?url={subdomain}&output=text&fl=original&collapse=urlkey')
-    with open('url.txt', 'a') as f:
+    with open('url.txt', 'w+') as f:
         f.write('\n')
         f.writelines(str(r.text))
         f.write('\n')
@@ -43,27 +44,32 @@ def Send_req(url,payload):
         res = requests.get(url)
         if payload in res.text:
            print(f"{green}-- XSS Found   -->  {url}  {end}")
-           with open('Output.txt', 'a') as f:
+           with open('Output.txt', 'w+') as f:
             f.write('\n')
             f.writelines(url)
             f.write('\n')
         else :
             print(f"{red}XSS NOT Found: {url}{end}")
-        
-    except Exception as e:
-        file = file.readlines()
-        for payload in payloads:
-            for url in file:
-                url = url.strip('\n')
-                payload = payload.strip('\n')
-                threading.Thread(target=Send_req,args=(url,payload,)).start()
+    except RuntimeError:
+            print(f"{red}Cant Start New Thread Because Of Request More.. {url}")
     except KeyboardInterrupt:
-        input(f"\n{red}You Wanna Cancel Brute Force ? Press Any Key To Cancel:{end}")
-        print(f"{yellow}Thanks For Using Tool, Have Nice Day :)")
+        input(f"{red} You Wanna Cancel Process ? Press Any Key To Cancel:{end}")
+        print(f"{red} Thanks For Using Tool, Have Nice Day :){end}")
         sys.exit(0)
-    except Exception:
+    except Exception as e:
         pass
-    
+    file = file.readlines()
+    payloads = payloads.readlines()
+    for payload in payloads:
+        for url in file:
+            url = url.strip('\n')
+            payload = payload.strip('\n')
+            threading.Thread(target=Send_req,args=(url,payload,)).start()
+        
+        
+        
+        
+
     
 
 
