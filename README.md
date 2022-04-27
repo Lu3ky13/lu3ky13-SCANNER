@@ -8,22 +8,24 @@
 
                                                 lu3ky13-SCANNER
    
-######  I created this tool to find xss on a big website sometimes we use archive.org  to find links we see have thousand of links we use these tools to easily find xss the tools by sending a request to all links in archive.org and changing all parameters (=) to your payload 
+######  <g-emoji class="g-emoji" alias="cd" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bf.png">💿</g-emoji> I created this tool to find xss on a big website sometimes we use archive.org  to find links we see have thousand of links we use these tools to easily find xss the tools by sending a request to all links in archive.org and changing all parameters (=) to your payload  <g-emoji class="g-emoji" alias="cd" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bf.png">💿</g-emoji>
 
-<h1> How it work </h1>
+<h1><g-emoji class="g-emoji" alias="ledger" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d2.png">📒</g-emoji> How it work <g-emoji class="g-emoji" alias="ledger" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d2.png">📒</g-emoji> </h1>
 
-1 download file python (you need python3) ( python3 lu3ky13-SCANNER.py) <br>
-2 create  txt files like (payload.txt) add payload in a text <br>
-3 run tools  python3 lu3ky13-SCANNER.py <br>
 
-on Youtube https://youtu.be/FgkwKou9QqE
+
+- download file python (you need python3) ( python3 lu3ky13-SCANNER.py) <br>
+- create  txt files like (payload.txt) add payload in a text <br>
+- run tools  python3 lu3ky13-SCANNER.py <br>
+
+<g-emoji class="g-emoji" alias="card_file_box" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5c3.png">🗃️</g-emoji> Youtube https://youtu.be/FgkwKou9QqE <g-emoji class="g-emoji" alias="card_file_box" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f5c3.png">🗃️</g-emoji>
 
 ###### 
 ![Screenshot 2022-04-27 094341](https://user-images.githubusercontent.com/60549548/165469571-8f81db9a-f8cc-4ad5-a762-a00b89a75227.png)
 ![4](https://user-images.githubusercontent.com/60549548/165469556-f22d4a6d-30dc-41a7-a1e8-8b0d27e104a6.png)
 ![3](https://user-images.githubusercontent.com/60549548/165469764-fa7ffdf6-c485-4dba-85f5-23db81b4903d.png)
 
-python3 lu3ky13-SCANNER.py
+<g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji> python3 lu3ky13-SCANNER.py <g-emoji class="g-emoji" alias="point_down" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f447.png">👇</g-emoji>
 
 ```
           \\|///
