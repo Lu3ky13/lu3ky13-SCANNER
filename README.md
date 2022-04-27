@@ -6,7 +6,7 @@
 
 
 
-                                                lu3ky13-SCANNER
+                                 🐛   🐛   lu3ky13-SCANNER 🐛 🐛
    
 ######  <g-emoji class="g-emoji" alias="cd" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bf.png">💿</g-emoji> I created this tool to find xss on a big website sometimes we use archive.org  to find links we see have thousand of links we use these tools to easily find xss the tools by sending a request to all links in archive.org and changing all parameters (=) to your payload  <g-emoji class="g-emoji" alias="cd" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bf.png">💿</g-emoji>
 
