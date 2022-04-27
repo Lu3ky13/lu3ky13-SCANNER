@@ -45,8 +45,8 @@ with open('url.txt', 'a') as f:
 file = open('url.txt','r')
 payloads = open('payloads.txt','r')
 def Send_req(url,payload):
-    #while url[-1] != '=':
-     #   url = url[:-1]
+    #Lu3ky13
+     #   Lu3ky13
     url = url.replace("=",f"={payload}")
 
     try:
